@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>People Can Code Shanghai- Location</title>
+    <link rel="stylesheet" href="/style.css">
+    <meta name="generator" content="nanoc 3.6.3">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+  </head>
+  <body>
+    <div id="main">
+      <div id='standard' class="header">
+    <h1>
+        <a href="/">
+            <div id="people-can">
+                People<br /> can
+            </div>
+            <div id='code'>
+                code
+            </div>
+            <div id='shanghai'>
+                Shanghai
+            </div>
+        </a>
+    </h1>
+    <div class="navigation">
+        <ul>
+            <li><a href="/meetups/">meetups</a></li>
+            <li><a href="/location/">location</a></li>
+            <li><a href="/rules/">rules</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class='title'>
+    <h1>Location</h1>
+</div>
+
+<div class="images">
+    <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=1199%E5%8F%B7+Panyu+Road,+Shanghai,+China&amp;aq=&amp;sll=31.203478,121.434202&amp;sspn=0.052564,0.05064&amp;ie=UTF8&amp;hq=&amp;hnear=1199%E5%8F%B7+Pan+Yu+Lu,+Xu+Hui+Qu,+Shanghai,+China&amp;t=m&amp;z=14&amp;ll=31.191166,121.425483&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=1199%E5%8F%B7+Panyu+Road,+Shanghai,+China&amp;aq=&amp;sll=31.203478,121.434202&amp;sspn=0.052564,0.05064&amp;ie=UTF8&amp;hq=&amp;hnear=1199%E5%8F%B7+Pan+Yu+Lu,+Xu+Hui+Qu,+Shanghai,+China&amp;t=m&amp;z=14&amp;ll=31.191166,121.425483" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+</div>
+
+<div class="address">
+  <p>1199 Panyu Road</p>
+  <p>Building 3, Unit 101</p>
+  <p>XuiJiaHui, Shanghai</p>
+</div>
+
+<div class="menu">
+    <ul>
+        <li><a href="/">back</a></li>
+    </ul>
+</div>
+    </div>
+
+    <div id='footer'>
+       <a href='http://www.stormycloud.net'>by StormyCloud.net</a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+
+body {
+    font-size: 16px;
+    font-family: "Helvetica Neue Light, Helvetica", sans-serif;
+}
+
+h1 {
+    font-family: 'Droid Serif', serif;
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (max-device-width : 568px)
+{
+    body {
+        font-size: 80%;
+    }
+}
+
+
+.menu {
+    width: 100%;
+}
+
+.menu#home {
+    font-size: 2em;
+    margin: 40px 30px 10px 30px;
+    overflow: hidden;
+}
+

@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>People Can Code Shanghai- Meetups</title>
+    <link rel="stylesheet" href="/style.css">
+    <meta name="generator" content="nanoc 3.6.3">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+  </head>
+  <body>
+    <div id="main">
+      <div id='standard' class="menu">
+    <h1>
+        <div id="people-can">
+            People<br /> can
+        </div>
+        <div id='code'>
+            code
+        </div>
+        <div id='shanghai'>
+            Shanghai
+        </div>
+    </h1>
+</div>
+
+<div class='title'>
+    <h1>Meetups</h1>
+</div>
+
+<div class="rules">
+
+</div>
+
+
+<div class="menu">
+    <ul>
+        <li><a href="/">back</a></li>
+    </ul>
+</div>
+    </div>
+
+    <div id='footer'>
+       <a href='http://www.stormycloud.net'>by StormyCloud.net</a>
+    </div>
+  </body>
+</html>

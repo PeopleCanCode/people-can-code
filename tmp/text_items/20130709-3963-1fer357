@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>People Can Code Shanghai- A New Item</title>
+    <link rel="stylesheet" href="/style.css">
+    <meta name="generator" content="nanoc 3.6.3">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+  </head>
+  <body>
+    <div id="main">
+      Hi, I'm a new item!
+    </div>
+
+    <div id='footer'>
+       <a href='http://www.stormycloud.net'>by StormyCloud.net</a>
+    </div>
+  </body>
+</html>

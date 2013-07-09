@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>People Can Code Shanghai- Home</title>
+    <link rel="stylesheet" href="/style.css">
+    <meta name="generator" content="nanoc 3.6.3">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+  </head>
+  <body>
+    <div id="main">
+      <div id='home' class="menu">
+          <span>People</span><span>can</span><span>code</span><span>Shanghai</span>
+        </div>
+    </div>
+
+    <div id='footer'>
+
+    </div>
+  </body>
+</html>
