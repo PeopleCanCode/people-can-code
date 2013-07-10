@@ -67,8 +67,6 @@ img {
     color: #1cacc6;
 }
 
-
-
 #standard h1{
     line-height: .85em;
 }
@@ -93,9 +91,6 @@ img {
     padding-top: .85em;
     float: left;
 }
-#standard #shanghai h1 {
-}
-
 
 #shanghai:after {
     content: "";
@@ -111,7 +106,6 @@ img {
 
 .title {
     padding: 0 1.6em 10px 1.6em;
-
 }
 
 .title h1, .title h2 {
@@ -175,14 +169,6 @@ img {
     text-align: center;
 }
 
-.images:after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
-
 .images img {
     background-color: #e6e6e6;
     padding: 5px;
@@ -190,6 +176,12 @@ img {
     margin-right: 10px;
     max-width: 600px;
     float: left;
+}
+
+.images:after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 #footer {
@@ -302,5 +294,61 @@ img {
         margin-right: auto;
         display: block;
         max-width: 625px;
+    }
+}
+
+@media (min-width : 1024px) {
+    .navigation {
+        width: 50%;
+    }
+
+    .navigation * {
+        -webkit-transition: all .2s ease;
+        -moz-transition: all .2s ease;
+        -o-transition: all .2s ease;
+        transition: all .2s ease;
+    }
+
+    .navigation ul li {
+        line-height: 2em;
+        width: 6em;
+        text-align: center;
+    }
+
+    .navigation  ul li:hover, .navigation ul li:hover {
+        background-color: #dbf2fa;
+        border-bottom: 2px solid gray;
+        transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+
+    }
+
+    .navigation ul li:after {
+        content: '';
+    }
+
+    .header h1, #home h1 {
+        width: 50%;
+    }
+
+
+    .images * {
+        -webkit-transition: all .2s ease;
+        -moz-transition: all .2s ease;
+        -o-transition: all .2s ease;
+        transition: all .2s ease;
+    }
+
+    .images img:hover {
+        -webkit-box-shadow: 2px 2px 5px gray;
+        -moz-box-shadow: 2px 2px 5px gray;
+        box-shadow: 20px 10px 20px #b3b3b3;
+        transform: rotate(4deg) scale(1.1,1.1);
+        -ms-transform: rotate(4deg) scale(1.1,1.1);
+        -webkit-transform: rotate(4deg) scale(1.1,1.1);
+    }
+    .images img {
+        margin-bottom: 40px;
     }
 }
