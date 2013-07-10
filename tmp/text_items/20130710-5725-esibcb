@@ -1,6 +1,6 @@
 @font-face {
     font-family: "droidserif-bold";
-    src: url('./fonts/DroidSerif-Bold.ttf') format("truetype");
+    src: url('./fnts/DroidSerif-Bold.ttf/') format("truetype");
 }
 
 body {

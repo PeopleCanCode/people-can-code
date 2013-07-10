@@ -1,7 +1,5 @@
 @font-face {
     font-family: "droidserif-bold";
-    src: url('./fonts/DroidSerif-Bold.ttf') format("truetype");
-}
 
 body {
     font-size: 100%;

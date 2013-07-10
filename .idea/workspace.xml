@@ -5,11 +5,13 @@
     <ignored path="people-can-code.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/default.html" changelist="fb69a856-bbde-4297-912c-0c50a648d7e8" time="1373356849318" ignored="false" />
-    <file path="/stylesheet.css" changelist="fb69a856-bbde-4297-912c-0c50a648d7e8" time="1373369230576" ignored="false" />
-    <file path="/index.html" changelist="fb69a856-bbde-4297-912c-0c50a648d7e8" time="1373368023097" ignored="false" />
+    <file path="/stylesheet.css" changelist="fb69a856-bbde-4297-912c-0c50a648d7e8" time="1373417527795" ignored="false" />
+    <file path="/index.html" changelist="fb69a856-bbde-4297-912c-0c50a648d7e8" time="1373420385779" ignored="false" />
     <file path="/meetups.html" changelist="fb69a856-bbde-4297-912c-0c50a648d7e8" time="1373364740266" ignored="false" />
     <file path="/location.html" changelist="fb69a856-bbde-4297-912c-0c50a648d7e8" time="1373364564513" ignored="false" />
     <file path="/rules.html" changelist="fb69a856-bbde-4297-912c-0c50a648d7e8" time="1373364579988" ignored="false" />
+    <file path="/Dummy.txt" changelist="fb69a856-bbde-4297-912c-0c50a648d7e8" time="1373375223979" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../myevalu/app/views/users/_user.html.erb" changelist="fb69a856-bbde-4297-912c-0c50a648d7e8" time="1373376467198" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +34,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="86" selection-start="876" selection-end="876" vertical-scroll-proportion="-24.375">
+            <state line="38" column="2" selection-start="725" selection-end="725" vertical-scroll-proportion="-23.75">
               <folding />
             </state>
           </provider>
@@ -47,10 +49,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stylesheet.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="stylesheet.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="174" column="0" selection-start="2526" selection-end="2549" vertical-scroll-proportion="0.29945055">
+            <state line="2" column="41" selection-start="90" selection-end="90" vertical-scroll-proportion="156.28">
               <folding />
             </state>
           </provider>
@@ -59,16 +61,16 @@
       <file leaf-file-name="meetups.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/meetups.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="4" selection-start="29" selection-end="29" vertical-scroll-proportion="-3.125">
+            <state line="42" column="4" selection-start="701" selection-end="701" vertical-scroll-proportion="-26.25">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="location.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="location.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/content/location.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="718" selection-start="1364" selection-end="1364" vertical-scroll-proportion="-20.0">
+            <state line="43" column="4" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.900838">
               <folding>
                 <element signature="n#style#0;n#a#0;n#small#0;n#div#2;n#!!top" expanded="true" />
               </folding>
@@ -97,10 +99,10 @@
       <list>
         <option value="$PROJECT_DIR$/layouts/default.html" />
         <option value="$PROJECT_DIR$/content/rules.html" />
-        <option value="$PROJECT_DIR$/content/index.html" />
-        <option value="$PROJECT_DIR$/content/location.html" />
-        <option value="$PROJECT_DIR$/content/meetups.html" />
         <option value="$PROJECT_DIR$/content/stylesheet.css" />
+        <option value="$PROJECT_DIR$/content/index.html" />
+        <option value="$PROJECT_DIR$/content/meetups.html" />
+        <option value="$PROJECT_DIR$/content/location.html" />
       </list>
     </option>
   </component>
@@ -239,7 +241,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../myevalu" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -449,17 +451,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="86" selection-start="876" selection-end="876" vertical-scroll-proportion="-24.375">
+        <state line="38" column="2" selection-start="725" selection-end="725" vertical-scroll-proportion="-23.75">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/location.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="718" selection-start="1364" selection-end="1364" vertical-scroll-proportion="-20.0">
-          <folding>
-            <element signature="n#style#0;n#a#0;n#small#0;n#div#2;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -470,17 +463,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/meetups.html">
+    <entry file="file://$PROJECT_DIR$/content/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="29" selection-end="29" vertical-scroll-proportion="-3.125">
+        <state line="2" column="41" selection-start="90" selection-end="90" vertical-scroll-proportion="156.28">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/stylesheet.css">
+    <entry file="file://$PROJECT_DIR$/content/meetups.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="174" column="0" selection-start="2526" selection-end="2549" vertical-scroll-proportion="0.29945055">
+        <state line="42" column="4" selection-start="701" selection-end="701" vertical-scroll-proportion="-26.25">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/location.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="4" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.900838">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#small#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
