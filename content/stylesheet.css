@@ -12,7 +12,6 @@ body {
 and (min-device-width : 320px)
 and (max-device-width : 480px)
 and (max-device-width : 568px)
-
 {
     body {
         font-size: 80%;
@@ -28,12 +27,12 @@ a:active, a:hover {
     color: #8c8c8c;
 }
 
-h1 a {
+h1 {
+    font-family: 'droidserif-bold', 'Georgia', serif;
     color: #231f20;
 }
 
-h1 {
-    font-family: 'droidserif-bold', serif;
+h1 a {
     color: #231f20;
 }
 
@@ -45,6 +44,13 @@ h2 {
 img {
     display: block;
     width: 100%;
+}
+
+.header h1 * {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
 }
 
 .header {
@@ -144,12 +150,13 @@ img {
 .menu ul li {
     display: block;
     text-align: center;
-    background-color: #edf3f4;
+    border: 1px solid #dcdcdc;
     margin-bottom: 5px;
 }
 
 .menu ul li:hover, .menu ul li:active {
-    background-color: #d2d7d8;
+    background-color: #dbf2fa;
+    border-bottom: 2px solid gray;
 }
 
 .menu ul li a {
@@ -232,6 +239,7 @@ img {
        width: 29%;
        margin-top: 5em;
        float: left;
+       text-align: left;
     }
 
     .navigation ul {
@@ -259,7 +267,7 @@ img {
 
     #home .navigation {
         margin-top: 9em;
-        width: 29%;
+        float: right;
     }
 
     #home h1 {
@@ -299,28 +307,27 @@ img {
 
 @media (min-width : 1024px) {
     .navigation {
-        width: 50%;
+        width: 30%;
+        float: right;
     }
 
     .navigation * {
-        -webkit-transition: all .2s ease;
-        -moz-transition: all .2s ease;
-        -o-transition: all .2s ease;
-        transition: all .2s ease;
+        -webkit-transition: all .4s ease;
+        -moz-transition: all .4s ease;
+        -o-transition: all .4s ease;
+        transition: all .4s ease;
     }
 
     .navigation ul li {
         line-height: 2em;
-        width: 6em;
+        width: 5em;
         text-align: center;
+        border: 1px solid #dcdcdc;
     }
 
     .navigation  ul li:hover, .navigation ul li:hover {
         background-color: #dbf2fa;
         border-bottom: 2px solid gray;
-        transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
-        -webkit-transform: rotate(360deg);
     }
 
     .navigation ul li:after {
@@ -328,14 +335,14 @@ img {
     }
 
     .header h1, #home h1 {
-        width: 50%;
+        width: 47%;
     }
 
     .images * {
-        -webkit-transition: all .2s ease;
-        -moz-transition: all .2s ease;
-        -o-transition: all .2s ease;
-        transition: all .2s ease;
+        -webkit-transition: all .9s ease;
+        -moz-transition: all .9s ease;
+        -o-transition: all .9s ease;
+        transition: all .9s ease;
     }
 
     .images img:hover {
@@ -345,8 +352,10 @@ img {
         transform: rotate(4deg) scale(1.1,1.1);
         -ms-transform: rotate(4deg) scale(1.1,1.1);
         -webkit-transform: rotate(4deg) scale(1.1,1.1);
+        opacity: 1;
     }
     .images img {
         margin-bottom: 40px;
+        opacity: .5;
     }
 }
