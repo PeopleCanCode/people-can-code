@@ -8,7 +8,11 @@ body {
     font-family: "Helvetica Neue Light, Helvetica", sans-serif;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (max-device-width : 568px) {
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (max-device-width : 568px)
+{
     body {
         font-size: 80%;
     }
@@ -107,7 +111,7 @@ img {
 }
 
 .title {
-    padding: 0 1.6em 10px 1.6em;
+    padding: 0 1.6em .8em 1.6em;
 }
 
 .title h1, .title h2 {
@@ -124,7 +128,7 @@ img {
 .title h1 {
     font-family: "Helvetica Neue Light", helvetica, sans-serif;
     font-weight: 100;
-    padding-left: 15px;
+    padding-left: 1em;
     font-size: 1.9em;
     margin-bottom: 50px;
 }
@@ -147,7 +151,7 @@ img {
     display: block;
     text-align: center;
     border: 1px solid #dcdcdc;
-    margin-bottom: 5px;
+    margin-bottom: .4em;
 }
 
 .menu ul li:hover, .menu ul li:active {
@@ -188,8 +192,8 @@ img {
 }
 
 #footer {
-    margin-top: 40px;
-    padding: 20px 30px 20px 50px;
+    margin-top: 3em;
+    padding: 1.5em 2em 1.5em 3em;
 }
 
 #footer a {
@@ -351,7 +355,10 @@ img {
         opacity: 1;
     }
     .images img {
-        margin-bottom: 40px;
+        margin-bottom: 2em;
         opacity: .5;
+    }
+    .stormycloud{
+        max-width: 1000px;
     }
 }
