@@ -2,7 +2,7 @@ $(function(){
     $('.header .navigation').addClass('hidden');
     $('.menu-link').on('click', function(e){
         e.preventDefault();
-        $('.header nav').toggleClass('hidden');
+        $('.header .navigation').toggleClass('hidden');
     });
 
     $(window).scroll(function(){
