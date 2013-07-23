@@ -3,6 +3,51 @@
     src: url('./fonts/DroidSerif-Bold.ttf') format("truetype");
 }
 
+
+@font-face {
+    font-family: 'icomoon';
+    src:url('fonts/icomoon.eot');
+    src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.woff') format('woff'),
+    url('fonts/icomoon.ttf') format('truetype'),
+    url('fonts/icomoon.svg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+    font-family: 'icomoon';
+    content: attr(data-icon);
+    speak: none;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-menu {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.icon-menu:before {
+    content: "\3d";
+}
+
+
 body {
     font-size: 100%;
     font-family: "Helvetica Neue Light, Helvetica", sans-serif;
@@ -62,6 +107,11 @@ ul {
     -moz-transition: all 0s ease;
     -o-transition: all 0s ease;
     transition: all 0s ease;
+}
+
+.header > a {
+    margin-top: .5em;
+    margin-bottom: 0;
 }
 
 .header {
@@ -282,7 +332,7 @@ ul {
 }
 
 .menu-link {
-    height:59px;
+    height: 44px;
     padding: 16px 16px 8px;
     font-size: 32px;
     float: right;
@@ -324,7 +374,7 @@ ul {
     box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.2), 0 0 2px rgba(0, 0, 0, 0.4);
     position: fixed;
     top: 64px;
-    background: #fdfdfd;
+    background: #f6f6f6;
     width: 100%;
     z-index: -1;
 }
@@ -332,7 +382,7 @@ ul {
 .header .navigation ul {
     padding:0;
     margin: 0;
-    padding-right: 3em;
+
 }
 
 .header .navigation li {
@@ -384,6 +434,10 @@ ul {
       filter: none;
       width: auto;
       float: right;
+  }
+
+  .header .navigation ul {
+      padding-right: 3em;
   }
 
   .header .navigation li {
