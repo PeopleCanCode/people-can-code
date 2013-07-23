@@ -10,6 +10,32 @@
     <meta name="viewport" content="width=device-width; initial-scale=1.0">
   </head>
   <body>
+  <div class="header" id="standard">
+      <div id="logo">
+          <h1>
+              <a href="/">
+                  <div id="people-can">
+                      People<br /> can
+                  </div>
+                  <div id='code'>
+                      code
+                  </div>
+                  <div id='shanghai'>
+                      Shanghai
+                  </div>
+              </a>
+          </h1>
+      </div>
+      <a href="#menu" class="menu-link" data-icon="=">LINK</a>
+      <nav class="navigation">
+          <ul>
+              <li><a href="/meetups/"><span>Meetups</span></a></li>
+              <li><a href="/location/"><span>Location</span></a></li>
+              <li><a href="/rules/"><span>Rules</span></a></li>
+          </ul>
+      </nav>
+  </div>
+
     <div id="main">
       <%= yield %>
     </div>
