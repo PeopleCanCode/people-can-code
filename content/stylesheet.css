@@ -56,6 +56,17 @@ a:active, a:hover {
     color: #8c8c8c;
 }
 
+button {
+    padding: 20px;
+    font-size: 2em;
+    color: white;
+}
+
+button:hover {
+
+}
+
+
 h1 {
     font-family: 'droidserif-bold', 'Georgia', serif;
     color: #231f20;
@@ -78,6 +89,8 @@ img {
 ul {
     list-style: none;
 }
+
+
 
 .address {
     width: 80%;
